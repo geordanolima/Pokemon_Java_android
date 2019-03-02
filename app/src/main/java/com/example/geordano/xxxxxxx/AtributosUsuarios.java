@@ -58,16 +58,16 @@ public class AtributosUsuarios extends Fragment {
             TextView treta = v.findViewById(R.id.txtValTreta);
             treta.setText(Integer.toString(jogador.getTreta()));
 
-            Button sair = v.findViewById(R.id.sair_treta);
+            //AERRUMAR ISSO / VER COM O MATEUS
+//            Button sair = v.findViewById(R.id.sair_treta);
 //            Log.i(">>>>>>>>>>>",sair.toString());
-
-            sair.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent inicio = new Intent(context, login.class);
-                    context.startActivity(inicio);
-                }
-            });
+//            sair.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+//                    Intent inicio = new Intent(context, login.class);
+//                    context.startActivity(inicio);
+//                }
+//            });
         }
         return v;
         //return inflater.inflate(R.layout.fragment_edicao, container, false);

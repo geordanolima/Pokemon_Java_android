@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Intent video = new Intent(MainActivity.this, VideoActivity.class);
+        startActivity(video);
+
         login = getSharedPreferences("arquivo", Context.MODE_PRIVATE);
         iniciaLogado = login.getBoolean("logado", false);
         banco = new bd(this,"banco", 2 );
@@ -32,13 +35,10 @@ public class MainActivity extends AppCompatActivity {
         while (i<= 150){
             i++;
         }
-
         IniciarLogado();
-
         Button butao;
         butao = findViewById(R.id.jogar);
         butao.setOnClickListener(Login);
-
     }
 
     private void IniciarLogado(){
