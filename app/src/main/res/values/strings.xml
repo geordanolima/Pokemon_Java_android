@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Joguinho Tretoso</string>
+
+    <string name="lblJogar">Iniciar o jogo</string>
+    <string name="lblNome">Nome</string>
+    <string name="lblApelido">Apelido</string>
+    <string name="lblEmail">Email</string>
+    <string name="lblSenha">Senha</string>
+    <string name="lblConfirmarSenha">ConfirmarSenha</string>
+    <string name="lblInteligencia">Inteligência</string>
+    <string name="lblSorte">Sorte</string>
+    <string name="lblTreta">Treta</string>
+    <string name="lbleditar">Editar</string>
+
+    <string name="hintLogin">Login</string>
+    <string name="hintSenha">Senha</string>
+
+    <string name="btnLogar">Logar</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="btnMaps">Mapinha</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+
+
+</resources>
